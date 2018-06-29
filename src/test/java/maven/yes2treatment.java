@@ -34,8 +34,8 @@ public class yes2treatment
 	public void DeleteUser()
 	{
 		System.out.println("we are deleting the created user and exit form the application");
-		//driver.quit();
 		System.out.println("coming out of yes2treatment Application");
+		driver.close();
 	}
 
 }
